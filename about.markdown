@@ -6,11 +6,11 @@ share: true
 ---
 
 <p style="text-align:right;">
-I am probably most accurately describe as a Communications Engineer. I am currently
+I am probably most accurately described as a communications engineer. I am currently
 completing a PhD at the University of Sydney with a background in Network Engineering
-and Digital Music Technology. My areas of expertise include digital signal processing.
-My research is in radio frequency interference mitigation using the Australian
-SKA Pathfinder.
+and Digital Music Technology. My area of expertise is digital signal processing and
+my research is in radio frequency interference mitigation using Phased Array Feeds
+on the Australian SKA Pathfinder and Parkes telescopes.
 
 I am also an educator, teaching Humanitarian Engineering and astronomy.
 </p>
