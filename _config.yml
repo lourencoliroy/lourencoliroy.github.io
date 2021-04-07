@@ -98,7 +98,7 @@ author:
   avatar           : "/assets/images/profile.jpg"
   bio              : "Global citizen using Science,Tech and Engineering to bring about change for the better."
   location         : Sydney, Australia
-  email            : lourencoliroy@me.com
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
