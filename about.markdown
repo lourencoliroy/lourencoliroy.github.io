@@ -9,7 +9,7 @@ share: true
 I am most broadly described as a communications engineer.
 <br>
 <br>I work in the Signal Processing Technologies group at CSIRO's Astronomy &
-Space Science and am completing a PhD at the University of Sydney: My research is in
+Space Science and am completing a PhD at the University of Sydney. My research is in
 radio frequency interference mitigation using Phased Array Feeds on the Australian
 SKA Pathfinder and Parkes telescopes.
 <br>
