@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "CV"
-    url: /CV/
+    url: /assets/LiroyLourencoResumeP1.pdf
   # - title: "Contact"
   #   url: /Contact/
   - title: "About"
     url: /About/
-  - title: "Publications"
-    url: /Publications/
-  - title: "Blog"
-    url: /Blog/
+  # - title: "Publications"
+  #   url: /Publications/
+  # - title: "Blog"
+  #   url: /Blog/

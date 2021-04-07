@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : #"Liroy Lourenço"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Liroy Lourenço"
+name                     : "LiRoy Lourenço"
 description              : "Independent English"
 url                      : "https://lourencoliroy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -98,7 +98,7 @@ author:
   avatar           : "/assets/images/profile.jpg"
   bio              : "Global citizen using Science,Tech and Engineering to bring about change for the better."
   location         : Sydney, Australia
-  email            :
+  email            : lourencoliroy@me.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
