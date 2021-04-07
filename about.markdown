@@ -8,7 +8,7 @@ share: true
 <p style="text-align:right;">
 I am probably most accurately describe as a Communications Engineer. I am currently
 completing a PhD at the University of Sydney with a background in Network Engineering
-and Digital Music Technology. My areas of expertise include digital signal processing
+and Digital Music Technology. My areas of expertise include digital signal processing.
 My research is in radio frequency interference mitigation using the Australian
 SKA Pathfinder.
 
@@ -20,7 +20,8 @@ I am also an educator, teaching Humanitarian Engineering and astronomy.
 </h2>
 
 <p style="text-align:right;">
-School of Physics A28
+Sydney Institute for Astronomy
+<br>School of Physics A28
 <br>The University of Sydney
 <br>NSW 2006
 </p>
