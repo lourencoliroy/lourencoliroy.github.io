@@ -20,7 +20,7 @@ title                    : #"Liroy Lourenço"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "LiRoy Lourenço"
-description              : "Independent English"
+description              : "LiRoy Lourenço"
 url                      : "https://lourencoliroy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://lourencoliroy.github.io"
