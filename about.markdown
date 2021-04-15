@@ -55,7 +55,7 @@ of Sydney and the University of Technology Sydney respectively.
             CSIRO
           </h3>
           <p style="text-align:right;">
-            <b>lou050@csiro.au</b>
+            <b>liroy.lourenco@csiro.au</b>
             <br>
             <br>Office: SCO
             <br>
