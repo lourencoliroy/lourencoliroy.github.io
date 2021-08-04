@@ -69,7 +69,7 @@ of Sydney and the University of Technology Sydney respectively.
             University of Sydney
           </h3>
           <p style="text-align:right;">
-            <b>llou8283@uni.sydney.edu.au</b>
+            <b>liroy.lourenco@sydney.edu.au</b>
             <br>
             <br>Office: 423B
             <br>Sydney Institute for Astronomy
