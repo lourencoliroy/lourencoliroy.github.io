@@ -9,14 +9,13 @@ share: true
 I am most broadly described as a communications engineer.
 <br>
 <br>I work in the Signal Processing Technologies group at CSIRO's Astronomy &
-Space Science and am completing a PhD at the University of Sydney. My research is in
-radio frequency interference mitigation using Phased Array Feeds on the Australian
-SKA Pathfinder and Parkes telescopes.
+Space Science and have recently completed my PhD at the University of Sydney. My research is in
+radio frequency interference monitoring and mitigation using Phased Array Feeds on the Australian
+SKA Pathfinder.
 <br>
 <br>
 I have a background in Network Engineering, Digital Music Technology and as an
-educator. I currently tutor Astronomy and Humanitarian Engineering at the University
-of Sydney and the University of Technology Sydney respectively.
+educator. 
 </p>
 
 <h2 style="text-align:right;">
@@ -56,8 +55,6 @@ of Sydney and the University of Technology Sydney respectively.
           </h3>
           <p style="text-align:right;">
             <b>liroy.lourenco@csiro.au</b>
-            <br>
-            <br>Office: SCO
             <br>
             <br>Corner Vimiera & Pembroke Roads
             <br>Marsfield
