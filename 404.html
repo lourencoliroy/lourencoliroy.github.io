@@ -1,25 +1,28 @@
----
-permalink: /404.html
-layout: default
----
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found · Liroy Lourenço</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+  <style>
+    :root { --bg:#fff; --fg:#1a1a1a; --muted:#6b6b6b; --accent:#2f5fe0; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0e0f12; --fg:#e9eaec; --muted:#9aa0a8; --accent:#7aa2ff; } }
+    body {
+      margin:0; min-height:100vh; display:flex; flex-direction:column;
+      align-items:center; justify-content:center; gap:0.5rem; text-align:center;
+      background:var(--bg); color:var(--fg);
+      font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    h1 { font-size:3rem; margin:0; font-weight:600; letter-spacing:-0.03em; }
+    p { color:var(--muted); margin:0; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
   <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <p>No signal here.</p>
+  <p><a href="/">← Back home</a></p>
+</body>
+</html>

@@ -1,15 +1,185 @@
----
-layout: splash
-author_profile: false
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liroy Lourenço</title>
+  <meta name="description" content="Liroy Lourenço — engineer and radio astronomer working to keep radio astronomy possible in an increasingly contested radio spectrum.">
+  <meta name="author" content="Liroy Lourenço">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
 
-title:
-classes: wide
----
-<h2 style="text-align:right;">
-  Dr LiRoy Lourenço
-</h2>
-<p style="text-align:right;">
-  Engineer & radio astronomer researching Radio Frequency Interference (RFI) monitoring and mitigation
-</p>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Liroy Lourenço">
+  <meta property="og:description" content="Engineer and radio astronomer working to keep radio astronomy possible in an increasingly contested radio spectrum.">
+  <meta property="og:url" content="https://lourencoliroy.github.io">
 
-{% include figure image_path="/assets/images/header.jpg" alt="" caption="" %}
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #6b6b6b;
+      --rule: #e6e6e6;
+      --accent: #2f5fe0;
+      --max: 40rem;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0e0f12;
+        --fg: #e9eaec;
+        --muted: #9aa0a8;
+        --rule: #24262b;
+        --accent: #7aa2ff;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.65;
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: clamp(3rem, 12vh, 7rem) 1.5rem 4rem;
+    }
+
+    header { margin-bottom: 3rem; }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 2.75rem);
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.4rem;
+      line-height: 1.1;
+    }
+
+    .tagline {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin: 0;
+    }
+
+    .wave {
+      display: block;
+      width: 100%;
+      height: 34px;
+      margin-top: 1.5rem;
+      overflow: hidden;
+    }
+    .wave path {
+      fill: none;
+      stroke: var(--accent);
+      stroke-width: 2;
+      stroke-linecap: round;
+      opacity: 0.55;
+    }
+    .wave g {
+      animation: drift 6s linear infinite;
+    }
+    @keyframes drift {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-60px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .wave g { animation: none; }
+    }
+
+    section { margin-top: 2.75rem; }
+
+    .label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 0.9rem;
+    }
+
+    .bio p { margin: 0 0 1rem; }
+    .bio p:last-child { margin-bottom: 0; }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      text-underline-offset: 2px;
+    }
+    a:hover { text-decoration: underline; }
+
+    .links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.25rem;
+    }
+    .links a {
+      color: var(--fg);
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 1px;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+    .links a:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Liroy Lourenço</h1>
+      <p class="tagline">Engineer &amp; radio astronomer working to keep radio astronomy possible in an increasingly contested radio spectrum.</p>
+      <svg class="wave" viewBox="0 0 640 40" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
+        <g>
+          <path d="M0 20 q15 -18 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0"/>
+        </g>
+      </svg>
+    </header>
+
+    <section class="bio">
+      <p>I'm a communications engineer in the Signal Processing Technologies group at CSIRO Space &amp; Astronomy, and I hold a PhD from the University of Sydney. My work is in radio frequency interference (RFI) management for radio telescopes.</p>
+      <p>It spans two sides of the same problem. Before interference reaches the telescope, I help shape the spectrum environment — representing radio astronomy in international regulatory forums at the ITU-R (Working Party 7D) and toward WRC-27. Once it does, I build the monitoring and mitigation capability to keep doing science through it — adaptive beamforming and RFI characterisation with Phased Array Feeds on the Australian SKA Pathfinder (ASKAP).</p>
+      <p>I have a background in network engineering, digital music technology, and as an educator.</p>
+    </section>
+
+    <section>
+      <p class="label">Elsewhere</p>
+      <ul class="links">
+        <li><a href="mailto:lourencoliroy@me.com">Email</a></li>
+        <li><a href="https://orcid.org/0000-0003-4294-8628" rel="me">ORCID</a></li>
+        <li><a href="https://github.com/lourencoliroy" rel="me">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/lourencoliroy" rel="me">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      © <span id="year">2026</span> Liroy Lourenço · Sydney, Australia
+    </footer>
+  </main>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
